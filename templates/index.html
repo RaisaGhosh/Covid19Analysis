@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Prediction</title>
+</head>
+<body>
+    <h1>COVID-19 Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Breathing Problem">Breathing Problem  (0 for No, 1 for Yes):</label>
+        <input type="number" id="Breathing Problem" name="Breathing Problem" required><br><br>
+        
+        <label for="Fever">Fever  (0 for No, 1 for Yes):</label>
+        <input type="number" id="Fever" name="Fever" required><br><br>
+        
+        <label for="Dry Cough">Dry Cough  (0 for No, 1 for Yes):</label>
+        <input type="number" id="Dry Cough" name="Dry Cough" required><br><br>
+
+        <label for="Sore throat">Sore throat  (0 for No, 1 for Yes):</label>
+        <input type="number" id="Sore throat" name="Sore throat" required><br><br>
+
+        <label for="Headache">Headache  (0 for No, 1 for Yes):</label>
+        <input type="number" id="Headache" name="Headache" required><br><br>
+
+        <label for="Running Nose">Running Nose  (0 for No, 1 for Yes):</label>
+        <input type="number" id="Running Nose" name="Running Nose" required><br><br>
+        
+        <!-- <label for="sore_throat">Sore Throat (0 for No, 1 for Yes):</label>
+        <input type="number" id="sore_throat" name="sore_throat" required><br><br> -->
+        
+        <input type="submit" value="predict">
+    </form>
+</body>
+</html>
